@@ -1,0 +1,111 @@
+.limitless-section {
+  width: 100%;
+  margin: 0;
+  border: 0;
+  background: #f5f5f5;
+  padding: 55px 0 0;
+  overflow: hidden;
+}
+
+.limit-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.limit-text {
+  padding-top: 12px;
+  text-align: center;
+}
+
+.limit-text h2 {
+  color: #333030;
+  font-size: 25px;
+  font-weight: 200;
+  margin: 0 0 15px;
+}
+
+.limit-text p {
+  color: #918e8e;
+  font-size: 15px;
+  line-height: 1.8;
+  margin: 0 auto 25px;
+  max-width: 850px;
+}
+
+.btn-primary {
+  background: #745cf9;
+  color: white;
+  border: none;
+  padding: 14px 28px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: #6049e8;
+}
+
+.limit-image {
+  width: 100%;
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.limit-image img {
+  display: block;
+  width: 100%;
+  max-width: 1100px;
+  height: auto;
+  object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  .limitless-section {
+    padding: 40px 0 0;
+  }
+
+  .limit-container {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .limit-text {
+    padding-top: 5px;
+  }
+
+  .limit-text h2 {
+    font-size: 24px;
+    line-height: 1.4;
+    margin-bottom: 12px;
+  }
+
+  .limit-text p {
+    font-size: 13px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+  }
+
+  .limit-text p br {
+    display: none;
+  }
+
+  .btn-primary {
+    width: 180px;
+    padding: 13px 20px;
+    font-size: 12px;
+  }
+
+  .limit-image {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .limit-image img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+}
